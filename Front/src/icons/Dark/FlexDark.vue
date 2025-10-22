@@ -1,0 +1,10 @@
+<template>
+<svg width="191" height="192" viewBox="0 0 191 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="5" y="5" width="181" height="182" rx="35" stroke="#7C7C7C" stroke-width="10"/>
+<rect x="37" y="33" width="47" height="125" rx="10" fill="#232323"/>
+<rect x="107" y="33" width="47" height="125" rx="10" fill="#232323"/>
+</svg>
+    
+</template>
+<script>
+</script>

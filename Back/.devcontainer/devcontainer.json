@@ -1,0 +1,16 @@
+{
+  "name": "API .NET 9 Dev",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "api",
+  "workspaceFolder": "/app",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.formatOnSave": true
+  },
+  "extensions": [
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "ms-azuretools.vscode-docker"
+  ],
+  "postCreateCommand": "dotnet restore"
+}
