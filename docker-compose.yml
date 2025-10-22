@@ -18,7 +18,7 @@ services:
       - mongo
       - minio
     ports:
-      - "5000:5000"
+      - 5000:5000
     networks:
       - cmsnet
   front:
@@ -27,7 +27,7 @@ services:
       dockerfile: Dockerfile
     container_name: cms_front
     ports:
-      - "80:80"
+      - 80:80
     depends_on:
       - api
     networks:
@@ -53,8 +53,8 @@ services:
     volumes:
       - minio_data:/data
     ports:
-      - "9000:9000"
-      - "9001:9001"
+      - 9000:9000
+      - 9001:9001
     networks:
       - cmsnet
 volumes:
