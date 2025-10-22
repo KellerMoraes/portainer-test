@@ -2,7 +2,7 @@ version: "3.9"
 services:
   api:
     build:
-      context: ./Back
+      context: https://github.com/usuario/CMS_Project.git#main:Back
       dockerfile: Dockerfile
     container_name: cms_api
     environment:
@@ -23,7 +23,7 @@ services:
       - cmsnet
   front:
     build:
-      context: ./Front
+      context: https://github.com/usuario/CMS_Project.git#main:Front
       dockerfile: Dockerfile
     container_name: cms_front
     ports:
